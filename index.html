@@ -119,6 +119,21 @@
     </div>
   </section>
 
+  <!-- HOME HEADING SECTION -->
+
+  <section id="home-heading" class="p-5">
+    <div class="dark-overlay">
+      <div class="row">
+        <div class="col">
+          <div class="container pt-5">
+            <h1> Get ready!</h1>
+            <p class="d-none d-md-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iure alias mollitia repudiandae numquam facilis.</p>            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -129,6 +144,12 @@
   <script>
     // Get the current year for the copyright
     $('#year').text(new Date().getFullYear());
+
+    // Configure carousel
+    $('.carousel').carousel({
+      interval: 4000,
+      pause: 'hover'
+    })
   </script>
 </body>
 
